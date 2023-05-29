@@ -106,7 +106,7 @@
     any malicious behavior.
     7. The total of 31 mutated evasive samples  in 40 are on the directories: Results/MAB and Results/NeoAthena_MAB_Pesidious on the NeoAthena Directory .
     8 . Running more then one time, we get more then 31 / 40 = 77.5%, so for better and robust results, in the future choose some number of arbitrary times to run NeoAthena on malware and get an average result is a good idea .
-    9. The minimum results with the Shellter sample are below.
+    9. The minimum results using the Shellter sample are below.
 
 # Details for the report
 
