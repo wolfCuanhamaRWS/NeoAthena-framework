@@ -61,18 +61,18 @@
 
 4. On the menu, start writing mutate or classifier and many options will appear:
 
-    4.1.  ![classifier](images\class.png)
-    4.2.  ![mutate](images\mutate.png)
+    4.1.  ![classifier](images/class.png)
+    4.2.  ![mutate](images/mutate.png)
 5. To replicate the results of the paper follow this flow:
     5.1. choose the option:  
-        ![class_short](images\class_short.png)
+        ![class_short](images/class_short.png)
     5.2. After all the classifications are doe, run again:
 
      ```
     python run_NeoAthena.py
     ```
 
-    5.3. Choose the option: ![mutate_short](images\mut_short.png)
+    5.3. Choose the option: ![mutate_short](images/mut_short.png)
     5.4. After all the process of mutations of NeoAthena finish run again:
 
      ```
@@ -80,15 +80,15 @@
     ```
 
     5.5. Choose the option to classify the mutated malware with mutations using MAB and Pesidious:
-        ![class_short_final](images\clas_short_final.png)
+        ![class_short_final](images/clas_short_final.png)
 
     5.6 Now, the total evasive sample will be on the directories: 
     - Mutated_malware/MAB_mutated_malware_1000/minimal_to_mutate_by_pesidious_short/Classification/malware_class_benign 
     - Data/MAB_mutated_malware_1000/minimal_to_mutate_by_pesidious_short/Classification/malware_class_benign
 
-    6. Results:
+## Results:
 
-#### Evading the gradient-boost classifier and VirusTotal us-ing the NeoAthena framework
+### Evading the gradient-boost classifier and VirusTotal us-ing the NeoAthena framework
 
     1. Out of 40 MAB-mutated malware samples sorted by
     gradient boost:
@@ -98,7 +98,6 @@
     and Pesidious mutations)
         a.  77.5% evade the gradient-boost classifier
         b.  22.5% is classified as malware
-        c. Running more then one time, we get more then 31 / 40 = 77.5%, so for better resultes, we would need to some total number of arbitrary times a better average number .
     3. The best sample has a score of 12 / 71 in VirusTotal
     (MAB and Pesidious mutations)
     4. Link for VirusTotal best sample submission [40](https://www.virustotal.com/gui/file/3d63c59fc80b92ba67a8a5b2d3c1effa8ab5f70a224be06287bf359958c370a8/detection)
@@ -106,6 +105,8 @@
     6. The above cloud-based dynamic analysis doesn’t detect
     any malicious behavior.
     7. The total of 31 mutated evasive samples  in 40 are on the directories: Results/MAB and Results/NeoAthena_MAB_Pesidious on the NeoAthena Directory .
+    8 . Running more then one time, we get more then 31 / 40 = 77.5%, so for better and robust results, in the future choose some number of arbitrary times to run NeoAthena on malware and get an average result is a good idea .
+    9. The minimum results with the Shellter sample are below.
 
 # Details for the report
 
@@ -133,6 +134,9 @@
 
 [Click here](https://github.com/weisong-ucr/MAB-malware)
 
+![Screenshot from 2023-05-30 00-18-54](https://github.com/wolfCuanhamaRWS/NeoAthena-framework/assets/27783349/d6977bc4-9266-4517-94aa-a05fbe741654)
+
+
 ## Quo-vadis
 
 ### Quo-vadis Repository, requirements and other informations
@@ -153,7 +157,7 @@ Later, better automatization needs to be done, so we run quo-vadis classificatio
 
 3. Arquitecture
     
-    ![quo-vadis_image](images\quo-vadis.png)
+    ![quo-vadis_image](images/quo-vadis.png)
 
 ## Other frameworks for comparison and future work
 
