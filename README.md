@@ -199,7 +199,6 @@ Due to limited time, only malware using shellter has been relatively developed i
 
 
 # References
+All the references are in the report ( on NeoAthena directory):
+[Evolving_Malware__Using_AI_to_Outsmart_Static_and_Dynamic_Analysis_(2).pdf](https://github.com/wolfCuanhamaRWS/NeoAthena-framework/files/11594506/Evolving_Malware__Using_AI_to_Outsmart_Static_and_Dynamic_Analysis_.2.pdf)
 
-On the report: ( on NeoAthena directory)
-
-[embed]Evolving_Malware__Using_AI_to_Outsmart_Static_and_Dynamic_Analysis_(2).pdfEvolving_Malware__Using_AI_to_Outsmart_Static_and_Dynamic_Analysis_(2).pdf[/embed]
