@@ -183,7 +183,7 @@ Later, better automatization needs to be done, so we run quo-vadis classificatio
 
 ### Comparision of results using Shellter
 
-Due to limited time, only malware using shellter has been relatively integrated in order to have malware samples that are easily integrated into the NeoAthena framework.
+Due to limited time, only malware using shellter has been relatively developed in order to have malware samples that are easily integrated into the NeoAthena framework in the future.
 
 #### Using shellter we get a malware sample that:
     1. Used on Kali Linux .
