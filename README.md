@@ -90,23 +90,23 @@
 
 ### Evading the gradient-boost classifier and VirusTotal us-ing the NeoAthena framework
 
-    1. Out of 40 MAB-mutated malware samples sorted by
-    gradient boost:
-        a.  35% are classified as benign: 14 out of 40
-        b.  65% is rated by malware: 26 out of 40
-    2. After the process with the NeoAthena framework ( MAB
-    and Pesidious mutations)
-        a.  77.5% evade the gradient-boost classifier
-        b.  22.5% is classified as malware
-    3. The best sample has a score of 12 / 71 in VirusTotal
-    (MAB and Pesidious mutations)
-    4. Link for VirusTotal best sample submission [40](https://www.virustotal.com/gui/file/3d63c59fc80b92ba67a8a5b2d3c1effa8ab5f70a224be06287bf359958c370a8/detection)
-    5. Link for the cloud-based dynamic analysis[42](https://app.any.run/tasks/d1352f87-cbdb-465d-b635-77ba162b1edb)
-    6. The above cloud-based dynamic analysis doesn’t detect
-    any malicious behavior.
-    7. The total of 31 mutated evasive samples  in 40 are on the directories: Results/MAB and Results/NeoAthena_MAB_Pesidious on the NeoAthena Directory .
-    8 . Running more then one time, we get more then 31 / 40 = 77.5%, so for better and robust results, in the future choose some number of arbitrary times to run NeoAthena on malware and get an average result is a good idea .
-    9. The minimum results using the Shellter sample are below.
+1. Out of 40 MAB-mutated malware samples sorted by
+gradient boost:
+    a.  35% are classified as benign: 14 out of 40
+    b.  65% is rated by malware: 26 out of 40
+2. After the process with the NeoAthena framework ( MAB
+and Pesidious mutations)
+    a.  77.5% evade the gradient-boost classifier
+    b.  22.5% is classified as malware
+3. The best sample has a score of 12 / 71 in VirusTotal
+(MAB and Pesidious mutations)
+4. Link for VirusTotal best sample submission [40](https://www.virustotal.com/gui/file/3d63c59fc80b92ba67a8a5b2d3c1effa8ab5f70a224be06287bf359958c370a8/detection)
+5. Link for the cloud-based dynamic analysis[42](https://app.any.run/tasks/d1352f87-cbdb-465d-b635-77ba162b1edb)
+6. The above cloud-based dynamic analysis doesn’t detect
+any malicious behavior.
+7. The total of 31 mutated evasive samples  in 40 are on the directories: Results/MAB and Results/NeoAthena_MAB_Pesidious on the NeoAthena Directory .
+8 . Running more then one time, we get more then 31 / 40 = 77.5%, so for better and robust results, in the future choose some number of arbitrary times to run NeoAthena on malware and get an average result is a good idea .
+9. The minimum results using the Shellter sample are below.
 
 # Details for the report
 
